@@ -23,7 +23,7 @@ body {
 #main img {
     width: 10%;
 }
-#map { height: 300px; width: 600px; margin: auto; border: 0.2rem solid white; border-radius: 8px;  }
+#map { height: 300px; width: 100%; margin: auto; border: 0.2rem solid white; border-radius: 8px;  }
 
 .container {
     height: auto;
@@ -33,6 +33,7 @@ body {
     margin-bottom: 10%;
 }
 .subcontainer {
+    width: 100%;
     margin: 0 auto;
     animation-duration: 4s;
     animation-timeline: view();
