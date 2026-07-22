@@ -34,13 +34,14 @@ body {
 }
 @media screen and (max-width: 1024px) {
     #main {
-        width: 90%;
+        width: 100%;
     }
     #main img {
         width: 20%;
     }
     .container {
+        margin: auto;
         height: 100vw;
-        min-height: 100%;
+        width: 90%;
     }
 }
