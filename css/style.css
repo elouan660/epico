@@ -1,0 +1,18 @@
+body {
+    background-image: url("../img/image.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main {
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    border-radius: 7px;
+    margin: auto;
+    
+}
+#main img {
+    margin: 10px;
+    width: 250px;
+}
