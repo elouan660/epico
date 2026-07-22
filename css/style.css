@@ -41,5 +41,6 @@ body {
     }
     .container {
         height: 100vw;
+        min-height: 100%;
     }
 }
