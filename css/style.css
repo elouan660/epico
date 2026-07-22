@@ -2,19 +2,31 @@ body {
     background-image: url("../img/image.png");
     background-repeat: repeat-y;
     background-size: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Playwrite NZ Basic", cursive;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 #main {
     text-align: center;
     background-color: white;
-    width: 70%;
+    width: 50%;
     border-radius: 7px;
     margin: auto;
     
 }
 #main img {
-    margin: 10px;
-    width: 250px;
+    width: 10%;
+}
+.container {
+    border: 0.5rem solid cyan;
+}
+.container-text {
+    border: 0.5rem solid blue;
+    margin: 5px;
+}
+.right-block {
+    text-align: right;
 }
 @media screen and (max-width: 1024px) {
     #main {
