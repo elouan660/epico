@@ -1,28 +1,35 @@
 body {
-    background-image: url("../img/image.png");
+    background-color: black;
     background-repeat: repeat-y;
     background-size: 100%;
     font-family: "Playwrite NZ Basic", cursive;
     font-optical-sizing: auto;
     font-weight: 10px;
     font-style: normal;
+    color: white;
 }
 #main {
     text-align: center;
-    background-color: white;
     width: 50%;
     border-radius: 7px;
     margin: auto;
-    
+    border: 1rem solid red;
 }
 #main img {
     width: 10%;
 }
 .container {
-    border: 0.5rem solid cyan;
+    height: auto;
+    border: 0.5rem solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer {
+    border: 0.5rem solid green;
+    margin: 0 auto;
 }
 .container-text {
-    border: 0.5rem solid blue;
     margin: 5px;
 }
 .right-block {
@@ -30,6 +37,12 @@ body {
 }
 @media screen and (max-width: 1024px) {
     #main {
-        width: 95%;
+        width: 90%;
+    }
+    #main img {
+        width: 20%;
+    }
+    .container {
+        height: 100vw;
     }
 }
