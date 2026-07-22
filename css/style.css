@@ -45,6 +45,13 @@ body {
 .right-block {
     text-align: right;
 }
+.left-block {
+    float: left;
+    margin-top: 0vh;
+    font-weight: bold;
+    font-size: larger;
+}
+
 @media screen and (max-width: 1024px) {
     #main {
         width: 100%;
@@ -58,5 +65,8 @@ body {
     }
     .subcontainer {
         width: 85%;
+    }
+    .left-block {
+        margin-top: 5vh;
     }
 }
