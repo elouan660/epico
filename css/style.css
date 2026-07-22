@@ -11,7 +11,7 @@ body {
 }
 @keyframes myAnimation {
   from {transform: translateX(-100%);}
-  to {}
+  to {transform: translateX(0%);}
   
 }
 #main {
@@ -36,7 +36,6 @@ body {
     width: 100%;
     margin: 0 auto;
     animation-duration: 4s;
-    animation-timeline: view();
     animation-name: myAnimation;
 }
 .container-text {
