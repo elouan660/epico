@@ -7,7 +7,7 @@ body {
 #main {
     text-align: center;
     background-color: white;
-    width: 50%;
+    width: 70%;
     border-radius: 7px;
     margin: auto;
     
@@ -15,4 +15,9 @@ body {
 #main img {
     margin: 10px;
     width: 250px;
+}
+@media screen and (max-width: 1024px) {
+    #main {
+        width: 95%;
+    }
 }
