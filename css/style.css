@@ -13,20 +13,17 @@ body {
     width: 50%;
     border-radius: 7px;
     margin: auto;
-    border: 1rem solid red;
 }
 #main img {
     width: 10%;
 }
 .container {
     height: auto;
-    border: 0.5rem solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .subcontainer {
-    border: 0.5rem solid green;
     margin: 0 auto;
 }
 .container-text {
