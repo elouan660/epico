@@ -22,7 +22,6 @@ footer {
 }
 #main {
     display: grid;
-
     text-align: center;
     width: 50%;
     border-radius: 7px;
@@ -40,8 +39,6 @@ footer {
     animation-direction: alternate;
     width: 200px;
 }
-
-
 .container {
     height: fit-content;
     display: flex;
@@ -61,13 +58,12 @@ footer {
     margin: 5px;
 }
 .right-block {
+    display: grid;
+    grid-template-columns: auto auto;
     text-align: right;
 }
-.left-block {
-    float: left;
-    margin-top: 0vh;
-    font-weight: bold;
-    font-size: larger;
+.ycentertext {
+    margin: auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -86,8 +82,5 @@ footer {
     }
     .subcontainer {
         width: 85%;
-    }
-    .left-block {
-        margin-top: 5vh;
     }
 }
