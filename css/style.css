@@ -21,6 +21,8 @@ footer {
     from {transform: translateY(10%)} to {transform: translateY(-10%) }
 }
 #main {
+    display: grid;
+
     text-align: center;
     width: 50%;
     border-radius: 7px;
@@ -36,13 +38,12 @@ footer {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    /*border: 0.2rem solid red;*/
     width: 200px;
 }
 
 
 .container {
-    height: auto;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,10 +51,11 @@ footer {
 }
 .subcontainer {
     width: 100%;
+    height: fit-content;
+    max-height: 100%;
     margin: 0 auto;
     animation-duration: 2s;
     animation-name: myAnimation;
-    /*border: 0.2rem solid red;*/
 }
 .container-text {
     margin: 5px;
@@ -72,12 +74,15 @@ footer {
     #main {
         width: 100%;
     }
+    
     .right-block img {
         width: 20%;
     }
     .container {
-        margin: auto;
         height: 80vh;
+    }
+    .longtext {
+        height: fit-content;
     }
     .subcontainer {
         width: 85%;
