@@ -9,12 +9,16 @@ body {
     font-style: normal;
     color: white;
 }
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
 @keyframes myAnimation {
-  from {transform: translateX(-100%);}
-  to {transform: translateX(0%);}
+  from {transform: translateY(-100%);}
+  to {transform: translateY(0%);}
 }
 @keyframes fly {
-    from {transform: translateY(10%);} to {transform: translateY(-10%);}
+    from {transform: translateY(10%)} to {transform: translateY(-10%) }
 }
 #main {
     text-align: center;
@@ -47,7 +51,7 @@ body {
 .subcontainer {
     width: 100%;
     margin: 0 auto;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-name: myAnimation;
     /*border: 0.2rem solid red;*/
 }
