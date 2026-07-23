@@ -49,7 +49,7 @@ body {
     margin: 0 auto;
     animation-duration: 4s;
     animation-name: myAnimation;
-    border: 0.2rem solid red;
+    /*border: 0.2rem solid red;*/
 }
 .container-text {
     margin: 5px;
