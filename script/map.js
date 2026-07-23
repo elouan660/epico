@@ -7,3 +7,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.marker([56.9866054, 24.0799902]).addTo(map)
     .bindPopup('Spilve airport')
     .openPopup();
+
