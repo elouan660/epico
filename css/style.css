@@ -12,7 +12,9 @@ body {
 @keyframes myAnimation {
   from {transform: translateX(-100%);}
   to {transform: translateX(0%);}
-  
+}
+@keyframes fly {
+    from {transform: translateY(10%);} to {transform: translateY(-10%);}
 }
 #main {
     text-align: center;
@@ -20,10 +22,20 @@ body {
     border-radius: 7px;
     margin: auto;
 }
-#main img {
+.right-block img {
     width: 10%;
 }
 #map { height: 300px; width: 100%; margin: auto; border: 0.2rem solid white; border-radius: 8px;  }
+
+#mainlogo {
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*border: 0.2rem solid red;*/
+    width: 200px;
+}
+
 
 .container {
     height: auto;
@@ -37,6 +49,7 @@ body {
     margin: 0 auto;
     animation-duration: 4s;
     animation-name: myAnimation;
+    border: 0.2rem solid red;
 }
 .container-text {
     margin: 5px;
@@ -55,7 +68,7 @@ body {
     #main {
         width: 100%;
     }
-    #main img {
+    .right-block img {
         width: 20%;
     }
     .container {
